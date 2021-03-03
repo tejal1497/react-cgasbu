@@ -2,5 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
+import Login from "./Login.js";
+import Registration from "./Registration.js";
 
-ReactDOM.render(<h2>Hello World</h2>, document.getElementById("root"));
+ReactDOM.render(<div>  <Login/> <Registration/></div>,
+document.getElementById("root"));
